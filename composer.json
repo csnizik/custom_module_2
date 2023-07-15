@@ -1,0 +1,19 @@
+{
+  "name": "pods/custom_module_2",
+  "description": "A custom Drupal module",
+  "type": "drupal-custom-module",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.3",
+    "composer/installers": "^1.7",
+    "drupal/core": "^9 || ^10"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    },
+    "installer-paths": {
+      "type:drupal-custom-module": "custom/modules/{$name}"
+    }
+  }
+}
