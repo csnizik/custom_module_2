@@ -1,0 +1,5 @@
+name: Custom Module 2
+description: 'This is just a demo module that does nothing.'
+package: Custom
+type: module
+core_version_requirement: ^9 || ^10
